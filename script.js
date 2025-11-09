@@ -3,7 +3,7 @@ const API_URL = "https://api-inference.huggingface.co/models/RasheedXT/zains-bg-
 
 // NOTE: Browser ke liye token ko directly JS me rakhna temporary testing ke liye hai
 // For production, use a server proxy to keep token secret
-const API_TOKEN = "hf_your_token_here"; // Replace with your token for now
+const API_TOKEN = "process.env.HF_TOKEN"; // Replace with your token for now
 
 async function removeBg() {
   const fileInput = document.getElementById("imageInput");
@@ -41,3 +41,4 @@ async function removeBg() {
     alert("Something went wrong. Check console for details.");
   }
 }
+
