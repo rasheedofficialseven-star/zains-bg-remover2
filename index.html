@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zain's AI Background Remover</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+    input, button { margin: 10px; }
+    img { margin-top: 20px; max-width: 500px; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>Zain's AI Background Remover</h1>
+  <p>Upload your image and get a clean background instantly!</p>
+
+  <input type="file" id="imageInput" accept="image/*" />
+  <br>
+  <button onclick="removeBg()">Remove Background</button>
+
+  <div>
+    <img id="output" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

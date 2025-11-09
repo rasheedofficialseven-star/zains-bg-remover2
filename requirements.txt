@@ -1,0 +1,15 @@
+gradio
+transformers
+torch
+torchvision
+scikit-image
+flask
+rembg
+onnxruntime
+pillow
+numpy
+
+
+
+
+
